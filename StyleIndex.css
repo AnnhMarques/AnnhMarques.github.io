@@ -1,0 +1,86 @@
+* {
+    box-sizing: 0;
+ }
+ 
+ body {
+ width: 100vw;
+ height: 100vh;
+ background-color: black;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ }     
+
+#Start {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+
+}
+
+h1{
+color: rgb(255, 255, 255);
+font-size: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-bottom: 0px;
+}
+
+.Position {
+color: rgb(255, 0, 191);
+font-size: 25px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.icons {
+    margin-top: 0px;
+}
+
+.info {
+    margin-right: 100px;
+}
+
+a img {
+    margin-top: 0px;
+}
+
+h2{
+    color: rgb(255, 0, 191);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.Me {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#AboutMe {
+    margin-top: 30vh;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;    
+}
+
+#Projects {
+    margin-top: 30vh;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;    
+}
+
+#Certificates {
+    margin-top: 30vh;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;    
+}
