@@ -3,13 +3,91 @@
  }
  
  body {
- width: 100vw;
- height: 100vh;
+ width: auto;
+ height: auto;
  background-color: black;
  background-size: 100%;
  background-repeat: no-repeat;
  background-attachment: fixed;
+ margin: 0%;
+ padding: 0%;
  }     
+
+
+header {
+    position:fixed;
+  
+    background-color: rgb(42, 42, 42);
+    height: 90px;
+    width: 100%;
+    border: 1px solid ;
+    border-radius: 20px;
+}
+
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#lo{
+    color: rgb(255, 0, 191);
+    margin-top: 28px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    float: left;
+font-size: 15px;
+margin-left: 50px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+nav a:hover{
+    color:rgb(255, 0, 191);
+}
+
+nav a::before{
+    border-radius: 10px;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: rgb(255, 0, 191);
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    transition: all ease-in-out 300ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
 
 #Start {
 display: flex;
@@ -26,7 +104,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 margin-bottom: 0px;
 }
 
-.Position {
+#Position {
 color: rgb(255, 0, 191);
 font-size: 25px;
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -53,6 +131,25 @@ h2{
     text-align: center;
 }
 
+
+.M {
+   
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 75%;
+
+}
+
+.Line {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
 .Me {
     color: white;
     font-size: 20px;
@@ -64,23 +161,22 @@ h2{
     text-align: center;
 }
 
-#AboutMe {
+.section {
+    padding-top: 100px;
     margin-top: 30vh;
     align-items: center;
     justify-content: center;
     height: 100vh;    
 }
 
-#Projects {
-    margin-top: 30vh;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;    
-}
-
-#Certificates {
-    margin-top: 30vh;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;    
+#arrow {
+    width: 30px;
+    height: 25px;
+    color: white;
+    border: 1px solid rgb(255, 0, 191);
+    border-radius: 20px;
+position: fixed;
+ top: 90vh;
+ left: 93vw;
+ background-color:rgb(255, 0, 191) ;
 }
